@@ -1,0 +1,145 @@
+/* Brand Page Rulesets */
+
+#brand-container {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#brand-container img {
+    max-width: 30%;
+    max-height: 10%;
+    align-items: center;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+#husqvarna-logo {
+    padding: 1% 0%;
+}
+
+#mcculloch-logo {
+    padding: 2% 0%;
+}
+
+#oregon-logo {
+    max-width: 26%;
+    max-height: 8%;
+}
+
+.category-container,
+#hva-category-container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c-box {
+    height: 85px;
+    width: 85px;
+    margin: 2% 10%;
+    border: solid 1px black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+
+.c-div span {
+    color: white;
+    font-variant-caps: small-caps;
+    letter-spacing: 1px;
+}
+
+.c-div {
+    height: 10%;
+    width: 10%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Category images */
+
+#c-box-brushcutter {
+    background-image: url(/resources/images/categories/husqvarna/brushcutter.jpeg);
+}
+
+#c-box-lawnmower {
+    background-image: url(/resources/images/categories/husqvarna/lawnmower.jpeg);
+}
+
+#c-box-automower {
+    background-image: url(/resources/images/categories/husqvarna/automower.jpeg);
+}
+
+#c-box-tractor {
+    background-image: url(/resources/images/categories/husqvarna/tractor.jpeg);
+}
+
+#c-box-raider {
+    background-image: url(/resources/images/categories/husqvarna/raider.jpeg);
+}
+
+#c-box-zeroturn {
+    background-image: url(/resources/images/categories/husqvarna/zeroturn.jpeg);
+}
+
+#c-box-chainsaw {
+    background-image: url(/resources/images/categories/husqvarna/chainsaw.jpeg);
+}
+
+#c-box-polesaw {
+    background-image: url(/resources/images/categories/husqvarna/polesaw.jpeg);
+}
+
+#c-box-hedgetrimmer {
+    background-image: url(/resources/images/categories/husqvarna/hedgetrimmer.jpeg);
+}
+
+#c-box-blower {
+    background-image: url(/resources/images/categories/husqvarna/blower.jpeg);
+}
+
+#c-box-preasurewasher {
+    background-image: url(/resources/images/categories/husqvarna/preasurewasher.jpeg);
+}
+
+#c-box-vacuumcleaner {
+    background-image: url(/resources/images/categories/husqvarna/vacuumcleaner.jpeg);
+}
+
+#c-box-ciltivators {
+    background-image: url(/resources/images/categories/husqvarna/ciltivators.jpeg);
+}
+
+#c-box-generator {
+    background-image: url(/resources/images/categories/husqvarna/generator.jpeg);
+}
+
+#c-box-pump {
+    background-image: url(/resources/images/categories/husqvarna/pump.jpeg);
+}
+
+#c-box-snowthrower {
+    background-image: url(/resources/images/categories/husqvarna/snowthrower.jpeg);
+}
+
+#c-box-powercutter {
+    background-image: url(/resources/images/categories/husqvarna/powercutter.jpeg);
+}
+
+#c-box-accessory {
+    background-image: url(/resources/images/categories/husqvarna/accessory.jpeg);
+}
+
+
