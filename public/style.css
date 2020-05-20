@@ -1,6 +1,7 @@
 /* General Rulesets */
 * {
     color: #ffffff;
+    box-sizing: border-box
   }
   
   body {
@@ -78,9 +79,7 @@
   }
   .navbar li a:hover, .navbar .current a {
     color: orangered;
-  }
-  
-  
+  }  
   
   /* Home Page Rulesets */
   
@@ -114,6 +113,48 @@
     background-color: #26A69A;
   }
 
+  @media screen and (max-width: 500px) {
+    nav{
+      float: left;
+      margin: 10% auto
+    }
+    .navbar {
+      margin-top: 5%;
+    }
+  .navbar li{
+    float: inline-start;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  /* button */
+  #introduction {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 30%;
+  } 
+  #introduction h1 {
+    font-size: 35px;
+  }
+  
+  #introduction p {
+    margin: 10% auto;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  #introduction a {
+    display: block;
+    width: 40%;
+    /* padding: 3% 8%;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #4c7ef3;
+    border-radius: 4px; */
+  }
+  
+}
 
   /* Store Page Rulesets */
   
