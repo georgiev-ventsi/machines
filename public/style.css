@@ -22,8 +22,9 @@
   }
   
   header {
-    padding-top: 3%;
+    width: 100%;
     min-height: 70px;
+    padding-top: 3%;
   }
   
   .container {
@@ -38,7 +39,6 @@
     border-radius: 2px;
     background-color:rgba(255, 255, 255, 0.9);
     color: black;
-
   }
   
   .branding h1 {
