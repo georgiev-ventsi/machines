@@ -1,6 +1,6 @@
 const context = {
     title: 'Добре дошли в Machinery Trader',
-    body: 'Machinery Trader е твоят онлайн магазин! Тук ще намерите техника с широко приложение на ниски цени!',
+    body: 'Machinery Trader е твоят онлайн магазин! Тук ще намериш техника с широко приложение на ниски цени!',
     instruments: [{
             image: 'https://hqvcdn3.azureedge.net/qs_mh=460&mw=460&ver=20191215T000750&hcsh=8865F775F2DEC7ADE538F9A352F8313D/_$$_/media/aprimo/husqvarna/brushcutters/photos/studio/h210-05xxxx/h210-0507.png',
             name: 'HUSQVARNA 129R',

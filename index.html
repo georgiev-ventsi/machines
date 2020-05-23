@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/resources/images/logo/favicon.ico" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  />
     <link rel="stylesheet" type="text/css" href="public/style.css">
     <script src="handlebars.min.js"></script>
     <script id="templateHB" type="text/x-handlebars-template">
@@ -12,29 +18,47 @@
     <p >{{body}}</p>
     <a href="brands.html">Shop Now</a>
 </script>
-    <title>Machinery Trader</title>
+    <title>VS TRADE LTD</title>
   </head>
 
   <body>
     <header>
-      <section class="container">
-        <h1 class="branding">Machinery Trader</h1>
+      <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">VS TRADE LTD</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html"
+                  >НАЧАЛО <span class="sr-only">(current)</span></a
+                >
+              </li>
 
-        <nav>
-          <ul class="navbar">
-            <li class="current">
-              <a href="index.html">НАЧАЛО</a>
-            </li>
-            <li>
-              <a href="brands.html">МАГАЗИН</a>
-            </li>
-            <li>
-              <a href="contact.html">КОНТАКТИ</a>
-            </li>
-          </ul>
-        </nav>
-
-      </section>
+              <li class="nav-item">
+                <a class="nav-link" href="./brands.html">МАГАЗИН</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">КОНТАКТИ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">ЗА НАС</a>
+              </li>
+            </ul>
+  
+          </div>
+        </div>
+      </nav>
     </header>
 
     <article id="introduction">
@@ -43,8 +67,23 @@
     </article>
 
     <footer>
-      <p>&copy; Machinery Trader</p>
+      <p>&copy; VS TRADE LTD</p>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
     <script src="public/main.js"></script>
   </body>
 </html>
